@@ -1,0 +1,451 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #fff;
+  }
+
+  header {
+    position: fixed;
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #FFF;
+	z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Playfair Display';
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+    transition: color 0.3s ease;
+  }
+
+  nav ul li a:hover {
+    color: #444;
+  }
+
+  @media (max-width: 768px) {
+    nav ul {
+      gap: 15px;
+    }
+
+    .logo {
+      font-size: 24px;
+    }
+  }
+
+
+
+/* main */
+
+
+
+.main_img {
+    height: 1060px;
+    width: 100%;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('img/Khatyn_Memorial\,_Belarus\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.main_img .container {
+    align-items: center;
+    
+    text-align: center;
+    color: #fff;
+
+}
+
+.title {
+    font-family: 'Playfair Display';
+    font-size: 52px;
+    line-height: 100%;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.victims {
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 100%;
+    margin-bottom: 30px;
+}
+
+.data {
+    display: block; 
+    margin-top: 10px;
+}
+
+.main__2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-2 .title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container-2 {
+    padding: 60px;
+}
+
+.container-2 .text {
+    letter-spacing: 1.5px;
+    font-family: 'Inter';
+    padding-bottom: 40px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.container-2 .text .p {
+    padding: 3px;
+}
+
+.main__3 {
+    background-color: #333333;
+    color: #fff;
+}
+
+.container-3 {
+    padding: 115px;
+}
+
+.container-3 .title {
+    text-align: center;
+
+}
+
+.pole {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+}
+
+
+.card {
+    background-color: #fff;
+    width: 550px;
+    height: 200px;
+    border-radius: 10px;
+    color: #000;
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    padding-left: 50px;
+}
+
+.card .data {
+    color: #C8A45F;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    margin-bottom: 10px;
+    
+}
+
+.card .title {
+    text-align: left;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 20px
+
+}
+
+.card .text {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #333333;
+}
+
+.c2 {
+    margin-top: 200px;
+}
+
+.c1 {
+    margin-bottom: 200px;
+}
+
+.t {
+    display: flex;
+    justify-content: center;;
+    /* align-items: center;  */
+}
+.dot1 {
+    margin-top: 82.5px;
+}
+.dot2 {
+    margin-top: 282.5px;
+}
+.dot3 {
+    margin-top: 482.5px;
+}
+
+.dot4 {
+    margin-top: 682.5px;
+}
+.dot5 {
+    margin-top: 882.5px;
+}
+.dot6 {
+    margin-top: 1082.5px;
+}
+
+.dot {
+    position: absolute;
+	z-index: 0;
+    margin-bottom: 95px;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: #C8A45F;
+    text-align: center;
+}
+
+.line {
+    background-color: #C8A45F;
+    width: 10px;
+    
+}
+
+
+.main__4 {
+    background-color: #fff;
+}
+
+.container-4 {
+    margin: 60px;
+    text-align: center;
+}
+
+.form1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.form1 img {
+    width: 836.727294921875px;
+    height: 531px;
+}
+
+.form1 .text {
+    margin: 30px;
+}
+
+.form1 .info .author {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.form1 .info .name {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.form1 .info p {
+    font-family: 'Playfair';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.main__5 {
+    background: #333333;
+    color: #fff;
+}
+
+.container-5 {
+    text-align: center;
+    padding: 60px;
+}
+
+.container-5 .t {
+    margin-bottom: 70px;
+}
+
+.container-5 .info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-5 .info .img {
+    width: 682.155517578125;
+    height: 550;
+
+}
+
+.container-5 .form .card1 {
+    display: flex;
+    justify-content:baseline;
+    margin-bottom: 40px;
+}
+
+.container-5 .form .card1 .fig {
+    height: auto;
+    width: 5px;
+    background-color: #C8A45F;
+    margin-right: 30px;
+}
+
+.container-5 .form .card1 .text, .foot {
+    display: block;
+    text-align: left;
+}
+
+.container-5 .form .card1 .text {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+}
+
+.container-5 .form .card1 .foot {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #C8A45F;
+}
+
+.container-5 .form .text {
+    text-align: left;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+}
+
+.container-5 .info .img .alt {
+    margin-top: 170px;
+    text-align: left;
+}
+
+.container-5 .info .img .alt .text {
+    font-family: 'Inter';
+    font-weight: 200;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.container-5 .info .img .alt .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.container-5 .title {
+    text-align: left;
+}
+
+.container-5 .footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-5 .alt {
+    padding: 80px;
+    text-align: left;
+}
+
+.container-5 .line {
+    height: 5px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.container-5 .footer .button a {
+    text-decoration: none;
+    color: #333;
+    margin-top: 8px;
+}
+
+
+.container-5 .footer .button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 90px;
+    width: 260px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
